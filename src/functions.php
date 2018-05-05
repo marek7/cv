@@ -167,6 +167,9 @@ function html5blank_styles() {
         // Custom CSS
         wp_register_style( 'html5blank', get_template_directory_uri() . '/style.css', array( 'normalize', 'slick', 'slicktheme', 'fancybox', 'markaCss' ), '1.0' );
 
+        // Google Font Lato & Roboto Slab
+        wp_register_style( 'google_fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Slab:300,400,700' );
+
         // Register CSS
         wp_enqueue_style( 'html5blank' );
     } else {
