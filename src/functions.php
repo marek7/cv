@@ -110,6 +110,9 @@ function html5blank_header_scripts() {
             // marka animated icons
             wp_register_script( 'markaJs', get_template_directory_uri() . '/js/lib/marka.min.js', array( ), '1.0.0' );
 
+            // fontAwesome icons
+            wp_register_script( 'fontAwesomeJs', get_template_directory_uri() . '/js/lib/fontawesome-all.min.js', array( ), '5.0.12' );
+
             // Custom scripts
             wp_register_script(
                 'html5blankscripts',
@@ -120,6 +123,7 @@ function html5blank_header_scripts() {
                     'slickslider',
                     'fancybox',
                     'markaJs',
+                    'fontAwesomeJs',
                     'jquery'
                 ),
                 '1.0.0' );
@@ -169,6 +173,9 @@ function html5blank_styles() {
 
         // Google Font Lato & Roboto Slab
         wp_register_style( 'google_fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Slab:300,400,700' );
+
+        // fontAwesome
+        wp_register_style( 'fontAwesomeCss', get_template_directory_uri() . '/css/lib/fa-svg-with-js.css', array(), '5.0.12' );
 
         // Register CSS
         wp_enqueue_style( 'html5blank' );

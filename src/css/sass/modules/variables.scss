@@ -8,26 +8,27 @@
  * Typography
  */
 
-$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+$font-lato: "Lato", Helvetica, Arial, "Open Sans", sans-serif; /* 300, 400, 700, 900*/
+$font-roboto: "Roboto Slab", serif; /* 300, 400, 700 */
 $font-size-base: 140%;
 $line-height-base: 1.5;
-
 
 /**
  * Colors
  */
 
-$text-color: #444;
+$text-color:#4c4c4c;
 $body-bg: #fff;
 $selection-bg: #04A4CC;
-
+$red: #d44c31;
+$dark-red: #9a3723;
+$link-hover: #000;
 
 /**
  * Grid
  */
 
-$wrapper-width: 1280px;
-
+$wrapper-width: 1024px;
 
 $padding-horizontal-base: 5px;
 $padding-vertical-base: 5px;
