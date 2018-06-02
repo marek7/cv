@@ -24,15 +24,15 @@
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo esc_url( home_url() ); ?>">
-							<h1>mario jug</h1>							
-							<p>developer & designer</p>								
+							<h1><?php echo bloginfo( 'title' ) ?></h1>							
+							<p><?php echo bloginfo( 'description' ) ?></p>								
 						</a>
 					</div>
 					<div class="social">
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-google-plus-g"></i></a>
-						<a href="#"><i class="fab fa-linkedin-in"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/mario.jug.1"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://plus.google.com/u/0/+MarioJug"><i class="fab fa-google-plus-g"></i></a>
+						<a href="https://www.linkedin.com/in/mario-jug/"><i class="fab fa-linkedin-in"></i></a>
+						<a href="https://twitter.com/majug7"><i class="fab fa-twitter"></i></a>
 					</div>
 					<!-- /logo -->
 
@@ -47,7 +47,8 @@
 			</header>
 			<!-- /header -->
 
-
+<?php
+/*
 <!-- Marka icon example. Only awailable Bars and Times for hamburger menu -->
 <!--
 <i id="menu_icon"></i>
@@ -62,3 +63,6 @@
 <a data-fancybox="gallery" href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"></a>
 <a data-fancybox="gallery" href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"></a>
 -->
+*/
+
+?>

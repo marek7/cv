@@ -25,7 +25,15 @@ body {
   font-size: $font-size-base;
   line-height: $line-height-base;
   color: $text-color;
-  background-color: $body-bg;
+  background: linear-gradient(to bottom, #fafafa 0%, white 15%, white 100%) no-repeat;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid $red;
+  margin: 0;   
 }
 
 img {
